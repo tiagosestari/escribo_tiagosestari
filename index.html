@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="solucao.js"></script>
+        <script>
+            function calcular() {
+                n = document.getElementById("numero").value;
+                document.getElementById('resultado_box').innerHTML = "<h3>O somatório dos números abaixo de " + n + " é: " + somatorio(n) + "</h3>";
+            }
+        </script>
+        
+    </head>
+    <body>
+        
+
+        <h1>Somatório</h1>
+        <h3>Escolha um número para que a função retorne o somatório de todos 
+        <br /> os valores abaixo dele que sejam divisiveis por 3 ou 5.</h3>
+        
+    
+        <label for="numero">Insira o número:</label>
+        <input type="number" name="numero" id="numero">
+        <button onClick="calcular()">Calcular somatório</button>
+    
+
+        <div id="resultado_box">
+            
+        </div>
+    </body>
+</html>
