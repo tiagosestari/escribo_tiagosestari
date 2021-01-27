@@ -24,6 +24,7 @@ const somatorio = (numero) => {
 }
 
 
+
 //TESTE CASES:
 somatorio(9);
 somatorio(10);
