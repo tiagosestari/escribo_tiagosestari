@@ -1,0 +1,21 @@
+{
+  "name": "Escribo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solucao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "somatorio": "run-func solucao.js somatorio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagosestari/escribo_tiagosestari.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagosestari/escribo_tiagosestari/issues"
+  },
+  "homepage": "https://github.com/tiagosestari/escribo_tiagosestari#readme"
+}

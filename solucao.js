@@ -8,23 +8,26 @@ const somatorio = (numero) => {
         }
     }
 
-    //Teste:
-    console.log("Os divisores são: ", divisiveis);
-
     let somatorio = 0;
     //esse loop vai somar o vetor divisiveis
     for (let j = 0; j < divisiveis.length; j++) {
         somatorio = somatorio + divisiveis[j];
     }
-    
-    //Teste:
-    console.log("O somatório é: ", somatorio);
-
+ 
+    console.log("Somatório: ", somatorio)
     return(somatorio);
 }
 
 
 
 //TESTE CASES:
-somatorio(9);
-somatorio(10);
+console.log("---------TEST CASES----------");
+for (let k = 0; k <= 20; k++) {
+    
+    console.log('Test Case', k);
+    somatorio(k);
+    
+}
+console.log("---------FIM DOS TEST CASES----------");
+
+module.exports = {somatorio}; 
